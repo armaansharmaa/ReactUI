@@ -28,7 +28,7 @@ class UserComponent extends React.Component {
                             <td>First Name</td>
                             <td>Last Name</td>
                             <td>Middle Name</td>
-                            <td>Email</td>
+                            <td>Email Id</td>
                             <td>Street</td>
                             <td>City</td>
                             <td>State</td>
@@ -49,9 +49,9 @@ class UserComponent extends React.Component {
                             this.state.users.map(
                                 user =>
                                     <tr key={user.id}>
-                                        <td> {user.id}</td>
-                                        <td> {user.firstName}</td>
-                                        <td> {user.lastName}</td>
+                                        <td>{user.id}</td>
+                                        <td>{user.firstName}</td>
+                                        <td>{user.lastName}</td>
                                         <td> {user.middleName}</td>
                                         <td>{user.email}</td>
                                         <td>{user.street}</td>
